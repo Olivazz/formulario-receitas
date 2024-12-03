@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Academia</title>
+</head>
+<body>
+    <form action="enviado.html">
+
+        <label for="foto">Foto da Receita:</label>
+        <input type="file" name="foto" id="foto" required><br>
+  
+    <label for="nome">Nome da receita:</label>
+    <input type="text" name="nome" id="nome"
+    required="required" autofocus><br>
+
+    <label> Categoria:</label>
+    <select name="Objetivo" required>
+        <option value="">Selecione...</option>
+        <option value="massa-muscular">Salgados</option>
+        <option value="cardiovascular">doces</option>
+        <option value="flexibilidade">massas</option>
+        <option value="mental">caldos</option>
+        <option value="outros">carnes</option>
+    </select>
+
+    <label>Ingredientes:</label>
+    <textarea name="Ingredientes" rows="8" cols="25" maxlength="100"
+    required placeholder="Escreva Informações adicionais que julgar importante">
+</textarea>
+
+<label>Modo de preparo:</label>
+    <textarea name="Modo de preparo" rows="8" cols="25" maxlength="100"
+    required placeholder="Escreva Informações adicionais que julgar importante">
+</textarea>
+
+<label for="tempo">Tempo de Preparo:</label>
+        <input type="time" name="tempo" id="tempo" required><br>
+
+        <label for="nome">Seu Nome:</label>
+    <input type="text" name="nome" id="nome"
+    required="required" autofocus><br>
+
+    <label for="nome">email:</label>
+    <input type="text" name="nome" id="nome"
+    required="required" autofocus><br>
+
+<br>
+<input type="submit" name="enviar" value="enviar" id="enviar">
+
+<p>
+    <input type="submit" value="Enviar (Simulação)" id="enviar">
+</p>
+
+
+
+
+
+    </form>
+</body>
+</html>
